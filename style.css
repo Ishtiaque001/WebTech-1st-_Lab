@@ -1,9 +1,9 @@
 body{
-    display:flex;
+   display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:center; 
     height:100vh;
-    background:#f4f4f4;
+    background:#cfcfcf;
 }
 
 .calculator{
@@ -21,9 +21,9 @@ body{
 }
 
 .buttons{
-    display:grid;
+   display:grid;
     grid-template-columns:repeat(4,60px);
-    gap:10px;
+    gap:10px; 
 }
 
 button{
